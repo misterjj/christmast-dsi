@@ -100,7 +100,7 @@ h1 {
     content: '>'!important;
     font-weight: bold;
 }
-.lg-prev:before {
+.lg-prev:after {
     content: '<'!important;
     font-weight: bold;
 }
@@ -109,6 +109,12 @@ h1 {
 }
 .lg-icon.lg-zoom-in:after {
     content: '+'!important;
+}
+.lg-icon.lg-zoom-out:after {
+    content: '-'!important;
+}
+.lg-toolbar .lg-download {
+    display: none;
 }
 
 .merci {
